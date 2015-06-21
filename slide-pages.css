@@ -1,0 +1,80 @@
+/* ===========================================================
+ * slide-pages.css v1.0.0
+ * ===========================================================
+ * Copyright 2015 Vasilchenko Vitaliy.
+ * git link
+ *
+ * An IOS like scroll website that user can scroll by one page
+ *
+ * License: GPL v3
+ *
+ * ========================================================== */
+body, html {
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-font-smoothing: antialiased;
+    transition: opacity 1s;
+    overflow: hidden;
+}
+
+html, body, .sp-container  {
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: static;
+    width: 100%;
+}
+
+.sp-container {
+    -webkit-transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+}
+
+.sp-container .sp-page {
+    height: 100%;
+    width: 100%;
+}
+
+.sp-pagination {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 99;
+}
+
+.sp-pagination li {
+    height: 10px;
+    padding: 10px 0;
+    text-align: center;
+    width: 10px;
+}
+
+.sp-pagination li span {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    background: rgba(0,0,0,0.85);
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    padding: 5px;
+    width: 10px;
+}
+
+.sp-pagination li span.active {
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    background: none;
+    border: 1px solid black;
+    height: 8px;
+    width: 8px;
+}

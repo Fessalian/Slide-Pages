@@ -1,0 +1,29 @@
+{
+  "name": "slide-pages",
+  "version": "1.0.0",
+  "description": "An IOS like scroll website that user can scroll by one page.",
+  "main": "slide-pages.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "open ./tests/tests.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "keywords": [
+    "IOS like website",
+    "IOS like scroller"
+  ],
+  "author": "Vasilchenko Vitaliy",
+  "license": "GPL v3",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}
