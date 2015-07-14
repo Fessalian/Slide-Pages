@@ -3,7 +3,7 @@
 Create an IOS like one page scroll website with plugin written with pure Javascript
 
 ## Demo
-[View demo](http://jsfiddle.net)
+[View demo](http://slidepages-demo.lazydeveloperblog.com)
 
 
 ## Usage
