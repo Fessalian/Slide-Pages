@@ -41,12 +41,46 @@ slidePages.(
 );
 ````
 
+## Public Methods
+You can also change page through script:
+````javascript
+  var slider = slidePages( '.main', {
+    sectionContainer: 'section'
+  });
+````
+### .spMoveUp()
+Allows you to move a page up by one.
 
+````javascript
+slider.spMoveUp()
+````
 
+### .spMoveDown()
+Allows you to move a page down by one.
 
+````javascript
+slider.spMoveDown();
+````
 
+### .spMoveTo( iPageIndex )
+Allows you to move to the specified page index.
 
+````javascript
+slider.spMoveDown( 2 );
+````
 
+### .spDestroy
+Allows you to destroy all plugin data. Including events.
+````javascript
+slider.spDestroy();
+````
+
+## Comments Coverage
+Good and understandable code coverage with documentation for methods, logical parts & etc. It can help you.
+
+## Tests Coverage
+Dense tests coverage with Mocha for your confidence.
+Just open `/tests/tests.html` in your browser. And check tests result.
 
 ## Compatibility
-Tested on almost on all modern browsers such as Chrome, Safari, Firefox and Opera.
+Tested almost on all modern browsers such as Chrome, Safari, Firefox and Opera.
